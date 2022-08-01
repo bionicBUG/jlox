@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="254ee45b-8538-497c-9eaf-1f4696b837ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/AstPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/tool/GenerateAst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Lox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AstPrinter">
+  <component name="RunManager" selected="Application.Lox">
     <configuration name="AstPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bionic.jlox.AstPrinter" />
       <module name="jlox" />
@@ -95,9 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lox" />
         <item itemvalue="Application.AstPrinter" />
         <item itemvalue="Application.GenerateAst" />
-        <item itemvalue="Application.Lox" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +113,8 @@
       <workItem from="1659081063009" duration="1356000" />
       <workItem from="1659100284775" duration="8788000" />
       <workItem from="1659110183737" duration="1236000" />
-      <workItem from="1659159448956" duration="12455000" />
+      <workItem from="1659159448956" duration="13174000" />
+      <workItem from="1659377983964" duration="6078000" />
     </task>
     <servers />
   </component>
