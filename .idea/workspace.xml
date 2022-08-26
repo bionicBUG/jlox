@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="254ee45b-8538-497c-9eaf-1f4696b837ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Interpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/RuntimeError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Stmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/AstPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Lox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/jlox/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bionic/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bionic/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +37,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2CaMpn409Gvz2x0J90JGGiFC95X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "/home/ojas/dev/IdeaProjects/jlox/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/ojas/dev/IdeaProjects/jlox/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Lox">
     <configuration name="AstPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bionic.jlox.AstPrinter" />
@@ -97,8 +107,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lox" />
-        <item itemvalue="Application.AstPrinter" />
         <item itemvalue="Application.GenerateAst" />
+        <item itemvalue="Application.AstPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +126,20 @@
       <workItem from="1659110183737" duration="1236000" />
       <workItem from="1659159448956" duration="13174000" />
       <workItem from="1659377983964" duration="6078000" />
+      <workItem from="1659452598312" duration="667000" />
+      <workItem from="1659552736986" duration="513000" />
+      <workItem from="1659703965515" duration="3963000" />
+      <workItem from="1659768147148" duration="176000" />
+      <workItem from="1660066101690" duration="702000" />
+      <workItem from="1660209265464" duration="666000" />
+      <workItem from="1661156781500" duration="272000" />
+      <workItem from="1661315173270" duration="1482000" />
+      <workItem from="1661317198005" duration="214000" />
+      <workItem from="1661317417933" duration="6893000" />
+      <workItem from="1661401309002" duration="7689000" />
+      <workItem from="1661413648421" duration="3519000" />
+      <workItem from="1661505232186" duration="2954000" />
+      <workItem from="1661532617189" duration="1022000" />
     </task>
     <servers />
   </component>
